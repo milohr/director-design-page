@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div id="fondo" class="oldclass"> 
+       <div id="logo"> <img src="img/logo.png"> </div>
+        
+    </div>
+  
+  
+  
+  
+ <script src="app.js"></script>
+  
+  </body>
+</html>
