@@ -12,7 +12,7 @@
      top: 0;
      left:0;
       position:fixed;
-     background:url("img/enfocada.jpg") no-repeat center center fixed;
+     background:url("imagenesprueba/crimen_joaquin.png") no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -58,7 +58,7 @@
     text-align:center;
     
     
-    width:10%;
+    width:8%;
     height:auto;
      
 }
@@ -113,7 +113,7 @@ transition:  1s ease-out;
      position:fixed;
      display:inline-block;
      text-align:center;
-      top: 70%;
+      top: 95%;
   
     
 }
@@ -121,6 +121,10 @@ transition:  1s ease-out;
 a
 {
     text-decoration:none;
+    font-size: 16px;
+   line-height:1.5;
+   font-weight:bold;
+  font-family:helvetica;
 }
 
 .hidden a
