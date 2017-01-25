@@ -10,12 +10,24 @@
     <style></style>
   </head>
   <body>
-  
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
+  <filter id="A">
+    <feGaussianBlur stdDeviation="3" />
+  </filter>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
+  <filter id="B">
+  	<feGaussianBlur stdDeviation="0.3" />
+  </filter>
+</svg>
+
+
     <header> 
         <div class="menu_header">
             <nav class="menu">
                 <ul>
-                    <li> <a href="index.html">Menú</a></li>
+                    <li> <a href="index.html">>←</a></li>
                     
                 </ul>
             </nav>
@@ -29,7 +41,7 @@
         <span id="sec1">
             
                 <h1>Projects</h1>
-                <h3> Fiction, documentary and adversating</h3>
+                <h2> Fiction, documentary and adversating</h2>
             
         </span>
         
