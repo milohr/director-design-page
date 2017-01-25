@@ -27,7 +27,7 @@
         <div class="menu_header">
             <nav class="menu">
                 <ul>
-                    <li> <a href="index.html">>←</a></li>
+                    <li> <a href="index.html"><<</a></li>
                     
                 </ul>
             </nav>
