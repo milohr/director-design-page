@@ -24,12 +24,15 @@ function clicked()
 {
     //document.getElementById("btn").innerHTML+= ":)";
     console.log("logo was clicked");
+    document.getElementById("logo").className = 'rotate';
     
 }
 
 function hovered()
 {
     document.getElementById("fondo").className = 'newclass';
+    document.getElementById("menu").className = 'show';
+    
     console.log("logo was hovered");
     
 }
@@ -37,6 +40,7 @@ function hovered()
 function unhovered()
 {
     document.getElementById("fondo").className = 'oldclass';
+    /* document.getElementById("menu").className = 'hidden';*/
     console.log("logo was unhovered");
     
 }

@@ -7,11 +7,28 @@
     
   </head>
   <body>
-    <div id="fondo" class="oldclass"> 
-       <div id="logo"> <img src="img/logo.png"> </div>
-        
-    </div>
   
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
+  <filter id="A">
+    <feGaussianBlur stdDeviation="3" />
+  </filter>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="0">
+  <filter id="B">
+  	<feGaussianBlur stdDeviation="0.3" />
+  </filter>
+</svg>
+
+
+  
+  
+    <div id="fondo" class="oldclass"> </div>
+    
+    <div id="container">
+        <div id="logo" class="logo"> <img src="img/logo.png"> </div>
+        <div id="menu" class="hidden"> <h3><a href="" >Proyects // </a> <a href="" >Bio //</a>  <a href="" >Contact</a> </h3> </div>
+    </div>
   
   
   

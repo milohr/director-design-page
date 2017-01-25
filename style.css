@@ -7,22 +7,48 @@
    
 }
  
- 
-.oldclass
-{
-      /*transition:  1s ease-out;*/
-    
-    overflow:hidden;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
-    background:url("img/desenfocada.jpg") no-repeat center center fixed;
+ #fondo
+ {
+     top: 0;
+     left:0;
+      position:fixed;
+     background:url("img/enfocada.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
     width:100%;
     height:100%;
+}
+
+#container
+{
+    
+     overflow:hidden;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    width:100%;
+    height:100%;
+   position: absolute;
+  top: 0;
+  left: 0;
+}
+.oldclass
+{
+      /*transition:  1s ease-out;*/
+    
+   
+    filter: url(#A);
+  /* IE specific */
+  filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=10); 
+  
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+ 
     
 }
 
@@ -30,34 +56,85 @@
 {
     
     text-align:center;
+    
+    
+    width:10%;
+    height:auto;
      
 }
 
 #logo img
 {
-    width:25%;
-    height:auto;
+    width:100%;
+    
+    -webkit-animation:spin 12s linear infinite;
+    -moz-animation:spin 12s linear infinite;
+    animation:spin 12s linear infinite;
+}
+
+#logo img:hover
+{
+     animation:none;
+    
+    
 }
 
 
-
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 .newClass
 {
-       transition:  1s ease-in;
+       
+transition:  1s ease-out;
     
-    
-   overflow:hidden;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
-    background:url("img/enfocada.jpg") no-repeat center center fixed;
+    /*background:url("img/enfocada.jpg") no-repeat center center fixed;*/
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    width:100%;
-    height:100%;
+   
+    
+    filter: url(#B);
+  /* IE specific */
+  filter: progid:DXImageTransform.Microsoft.Blur(pixelradius=10); 
+  
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  -o-filter: blur(0px);
+  filter: blur(0px);
+        
+}
+
+#menu
+{
+     
+     position:fixed;
+     display:inline-block;
+     text-align:center;
+      top: 70%;
+  
     
 }
 
+a
+{
+    text-decoration:none;
+    font-size: 16px;
+   line-height:1.5;
+   font-weight:bold;
+  font-family:helvetica;
+}
 
+.hidden a
+{
+    visibility: hidden;
+    
+}
+
+.show a
+{
+    color:white;
+   
+}
