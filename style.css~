@@ -81,10 +81,7 @@
 #logo img
 {
     width:100%;
-    
-    -webkit-animation:spin 12s linear infinite;
-    -moz-animation:spin 12s linear infinite;
-    animation:spin 12s linear infinite;
+   
 }
 
 #logo img:hover
@@ -98,6 +95,10 @@
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes unspin { 100% { -moz-transform: rotate(-60deg); } }
+@-webkit-keyframes unspin { 100% { -webkit-transform: rotate(-60deg); } }
+@keyframes unspin { 100% { -webkit-transform: rotate(-60deg); transform:rotate(-60deg); } }
 .newClass
 {
        

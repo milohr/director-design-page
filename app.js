@@ -31,15 +31,8 @@ function clicked()
         var image = "url(\""+images[i]+"\") no-repeat center center fixed";
         document.getElementById("fondo").style.background= image;
         document.getElementById("fondo").style.backgroundSize="cover";
-       
-       
+        
         i++;
-        
-        
-
-        
-        
-    
 }
 
 function hovered()
@@ -48,7 +41,6 @@ function hovered()
     document.getElementById("menu").className = 'show';
     document.getElementById("logo").style.cursor="pointer";
     console.log("logo was hovered");
-    
 }
 
 function unhovered()
@@ -56,7 +48,6 @@ function unhovered()
     document.getElementById("fondo").className = 'oldclass';
     /* document.getElementById("menu").className = 'hidden';*/
     console.log("logo was unhovered");
-    
 }
 var i=0;
 
